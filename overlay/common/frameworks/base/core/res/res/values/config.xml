@@ -393,5 +393,9 @@
         <item>device_personalization_services/WallpaperEffects__use_gpu=true</item>
         <item>device_personalization_services/WallpaperEffects__use_tpu=false</item>
     </string-array>
+
+    <!-- Whether the device supports double tap to sleep on SystemUI surfaces. -->
+    <bool name="config_supportDoubleTapSleep">true</bool>
+
 </resources>
 
