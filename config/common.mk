@@ -85,6 +85,10 @@ endif
 PRODUCT_PACKAGES += \
     TouchGestures
 
+# Native App Backup
+PRODUCT_PACKAGES += \
+    AppDataBackup
+
 # Updater
 include vendor/custom/config/ota.mk
 
